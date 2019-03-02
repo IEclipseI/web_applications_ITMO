@@ -1,0 +1,21 @@
+.form-box {
+    border: 1px solid var(--border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.form-box .header {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--caption-color);
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+
+.form-box form .error {
+    font-size: 0.75rem;
+    color: var(--error-color);
+    margin-left: 12rem;
+}
